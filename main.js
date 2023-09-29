@@ -53,7 +53,7 @@ function toggleDesktopMenu(){
 const productList=[];
 productList.push({name:'Bike',price:120,image:'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',});
 productList.push({name:'Pantalla',price:220,image:'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',});
-productList.push({name:'Compu',price:620,image:'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',});
+productList.push({name:'Compu',price:620,image:'https://media.istockphoto.com/id/1266388738/es/foto/pantalla-en-blanco-ordenador-sobre-la-mesa-con-la-oficina-en-segundo-plano.jpg?s=2048x2048&w=is&k=20&c=CFZf0_13eYtoaQDsELOX24zZYd5rKNkXOBm8A3cLpwA=',});
 
 function renderProducts(arr){
     for(product of arr){
