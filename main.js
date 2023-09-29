@@ -51,9 +51,12 @@ function toggleDesktopMenu(){
     }   
 
 const productList=[];
-productList.push({name:'Bike',price:120,image:'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',});
-productList.push({name:'Pantalla',price:220,image:'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',});
-productList.push({name:'Compu',price:620,image:'https://media.istockphoto.com/id/1266388738/es/foto/pantalla-en-blanco-ordenador-sobre-la-mesa-con-la-oficina-en-segundo-plano.jpg?s=2048x2048&w=is&k=20&c=CFZf0_13eYtoaQDsELOX24zZYd5rKNkXOBm8A3cLpwA=',});
+productList.push({name:'Neusa',price:420.000,image:'https://www.neusahills.com/wp-content/uploads/2023/09/Diseno-sin-titulo-10.png',});
+productList.push({name:'Bajo el cielo San francisco',price:470.000,image:'https://static.wixstatic.com/media/0506ec_4ed82728f23641d38c1112eed8ba9bf8~mv2.jpg/v1/fill/w_1826,h_1027,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0506ec_4ed82728f23641d38c1112eed8ba9bf8~mv2.jpg',});
+productList.push({name:'Bajo el cielo Guatavita',price:620.000,image:'https://static.wixstatic.com/media/0506ec_8ae26a8fdf0a4d56a73d116d590aef23~mv2_d_4608_2592_s_4_2.jpg/v1/fill/w_1886,h_1061,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/0506ec_8ae26a8fdf0a4d56a73d116d590aef23~mv2_d_4608_2592_s_4_2.jpg',});
+productList.push({name:'De lujo santander',price:520.000,image:'https://weekend-bucket.s3.amazonaws.com/image_4d9e50dd54.png',});
+productList.push({name:'Mesa de los santos',price:510.000,image:'https://weekend-bucket.s3.amazonaws.com/image_95e8b0bd18.png',});
+
 
 function renderProducts(arr){
     for(product of arr){
